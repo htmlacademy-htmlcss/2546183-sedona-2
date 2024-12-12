@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Юлия Вострикова](https://up.htmlacademy.ru/htmlcss-individual/2/user/2546183).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгения Подопригора](https://htmlacademy.ru/profile/id2387199).
 
 ---
 
