@@ -25,6 +25,7 @@ html {
 }
 
 body {
+  min-width: 1280px;
   margin: 0;
   height: 100%;
   border: 0;
@@ -89,7 +90,7 @@ body {
 .navigation-user {
   padding: 0;
   margin: 0;
-  margin-left: 285px;
+  margin-left: 283px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -171,6 +172,7 @@ body {
   text-decoration: none;
   padding: 8px 34px;
   margin-left: 20px;
+  margin-right: 70px;
 }
 
 .navigation-link-favourites:hover,
@@ -186,6 +188,7 @@ body {
 
 /*Welcome*/
 .welcome {
+  min-height: 485px;
   background-image: url("../images/welcome-divider.svg"), url("../images/welcome-background.jpg");
   background-size: 100% auto, cover;
   background-repeat: no-repeat, no-repeat;
@@ -468,10 +471,15 @@ body {
   width: 452px;
   height: 100%;
   padding: 17px 0 17px 20px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .subscription-input::placeholder {
-  font-family: inherit;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 24px;
 }
@@ -505,7 +513,7 @@ body {
 
 /*Footer*/
 .page-footer {
-  padding: 50px 70px;
+  padding: 44px 70px;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -546,7 +554,8 @@ body {
   font-size: 40px;
   line-height: 40px;
   color: #000000;
-  text-decoration: none
+  text-decoration: none;
+  max-width: 350px;
 }
 
 .page-footer-contacts-phone:hover,
@@ -581,7 +590,7 @@ body {
 .catalog-hotels {
   text-align: left;
   color: #ffffff;
-  background: #82b3d3 url("../images/filter-background.jpg") no-repeat center center;
+  background: rgb(117, 97, 87) url("../images/filter-background.jpg") no-repeat center center;
   background-size: cover;
   padding: 35px 70px 70px;
 }
@@ -667,6 +676,7 @@ body {
 .hotels-filter-item {
   text-align: left;
 }
+
 .hotels-filter-group {
   padding: 0;
   margin: 0;
@@ -695,7 +705,7 @@ body {
 
 /* Checkbox */
 
-.checkbox-input{
+.checkbox-input {
   position: absolute;
   width: 20px;
   height: 20px;
@@ -716,7 +726,7 @@ body {
 }
 
 .infrastructure-input[type="checkbox"]:disabled + .checkbox-input,
-.infrastructure-input[type="checkbox"]:disabled ~ .checkbox-label  {
+.infrastructure-input[type="checkbox"]:disabled ~ .checkbox-label {
   opacity: 30%;
 }
 
@@ -735,7 +745,6 @@ body {
 
 .checkbox-label {
   margin-left: 36px;
-  display: block;
 }
 
 /* Radio */
@@ -775,6 +784,13 @@ body {
   background: rgb(242, 242, 242);
   border: 0 solid rgb(242, 242, 242);
   outline: none;
+  appearance: textfield;
+}
+
+.hotel-price-input::-webkit-outer-spin-button,
+.hotel-price-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
 }
 
 .hotel-type-input[type="radio"]:checked + .radio-input:after {
@@ -801,12 +817,11 @@ body {
 }
 
 .hotel-type-input[type="radio"]:disabled + .radio-input,
-.hotel-type-input[type="radio"]:disabled ~ .radio-label  {
+.hotel-type-input[type="radio"]:disabled ~ .radio-label {
   opacity: 30%;
 }
 
 .radio-label {
-  display: block;
   margin-left: 36px;
 }
 
@@ -942,7 +957,9 @@ body {
 }
 
 .select-control {
-  font-family: inherit;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
   padding: 14px 20px;
   width: 292px;
   box-sizing: border-box;
@@ -951,14 +968,22 @@ body {
   margin-left: 161px;
   height: 49px;
   outline: none;
+  appearance: none;
+  background-color: #ffffff;
+
+  background-image: url(../images/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: right 18px center;
 }
 
 .select-control-option {
+  font-family: "PT Sans", sans-serif;
   color: #333333;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
   box-sizing: border-box;
+
 }
 
 .select-control:hover,
@@ -974,6 +999,7 @@ body {
   list-style-type: none;
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
   gap: 8px;
   margin-left: auto;
 }
@@ -991,15 +1017,15 @@ body {
   outline: none;
 }
 
-.select-button:hover {
+.select-button-item:hover {
   border: 2px solid rgb(0, 0, 0);
 }
 
-.select-button:focus {
+.select-button-item:focus {
   border: 2px solid rgb(104, 162, 202);
 }
 
-.select-button:active {
+.select-button-item:active {
   border: 2px solid rgb(0, 0, 0);
 }
 
@@ -1018,7 +1044,7 @@ body {
 }
 
 .product-card {
-  width: 340px;
+  width: 100%;
   border: 1px solid #f2f2f2;
   border-radius: 4px;
   padding: 20px;
@@ -1031,14 +1057,17 @@ body {
 }
 
 .product-card-link {
+  width: 100%;
   display: block;
   text-decoration: none;
 }
 
 .product-card-img {
+  width: 100%;
+  height: 212px;
   margin-bottom: 16px;
   display: block;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .product-card-title {
@@ -1060,29 +1089,26 @@ body {
 
 .product-card-container {
   max-width: 300px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 16px;
+  display: grid;
+  grid-template-columns: 140px 140px;
+  gap: 20px;
 }
 
 .product-card-stars {
-background-image: url("../images/rating-stars.png");
-background-repeat: no-repeat;
-  background-position: left;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 140px;
+  min-height: 37px;
 }
 
-.hotel1,
-.hotel2 {
-  width: 100px;
-}
-
-.hotel3 {
-  width: 70px;
-}
-
-.hotel4 {
-  width: 50px;
+.product-card-star {
+  background-image: url("../images/star.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 18px;
+  height: 17px;
 }
 
 .product-card-price {
@@ -1108,7 +1134,7 @@ background-repeat: no-repeat;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-  max-width: 142px;
+  min-width: 140px;
 }
 
 .product-card-details {
@@ -1164,6 +1190,7 @@ background-repeat: no-repeat;
   border-radius: 4px;
   background: rgb(242, 242, 242);
   padding: 9px 22px 8px 23px;
+  cursor: default;
 }
 
 .pagination {
@@ -1194,6 +1221,7 @@ background-repeat: no-repeat;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 5px;
 }
 
 .pagination-link:hover,
@@ -1249,9 +1277,9 @@ background-repeat: no-repeat;
 }
 
 
- /* Модальное окно */
+/* Модальное окно */
 
- .modal-container {
+.modal-container {
   display: none;
   position: fixed;
   top: 0;
@@ -1260,7 +1288,7 @@ background-repeat: no-repeat;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
   z-index: 2;
- }
+}
 
 .modal {
   position: relative;
@@ -1416,12 +1444,13 @@ background-repeat: no-repeat;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
-  padding: 12px 12px 0 0;
   text-align: left;
 }
 
 .person-box {
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   max-width: 247px;
   margin-bottom: 8px;
@@ -1515,12 +1544,15 @@ background-repeat: no-repeat;
 .tooltip-box {
   width: 26px;
   margin-right: 46px;
+  position: relative;
 }
 
 .modal-tooltip {
   position: absolute;
   display: block;
-  padding: 11px 0;
+  /* padding: 11px 0; */
+  left: 10px;
+  top: -11px;
 }
 
 .tooltip-toggle {
