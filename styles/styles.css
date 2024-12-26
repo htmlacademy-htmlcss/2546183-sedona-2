@@ -743,7 +743,7 @@ body {
   color: #ffffff;
   background: rgb(117, 97, 87) url("../images/filter-background.jpg") no-repeat center center;
   background-size: cover;
-  padding: 35px 70px 70px;
+  padding: 35px 70px 68px;
 }
 
 .breadcrumbs-list {
@@ -768,7 +768,7 @@ body {
   line-height: 78px;
   margin: 0;
   padding: 0;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .breadcrumbs {
@@ -1499,7 +1499,7 @@ body {
 
 /*Subscription Catalog*/
 .subscription-catalog {
-  padding: 22px 70px 104px;
+  padding: 22px 70px 101px;
   margin: 0;
 }
 
