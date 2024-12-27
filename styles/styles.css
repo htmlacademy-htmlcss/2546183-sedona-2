@@ -77,13 +77,12 @@ body {
   margin-left: 70px;
 }
 
-.logo:hover {
-  background-color: #82b3d3;
-  border-radius: 4px;
+.header-link:hover {
+  opacity: 60%;
 }
 
-.logo:active {
-  background-color: #68a2ca;
+.header-link:active {
+  opacity: 30%;
 }
 
 .header-link:focus-visible {
@@ -121,12 +120,11 @@ body {
 }
 
 .navigation-link:hover {
-  background-color: #82b3d3;
-  border-radius: 4px;
+  opacity: 60%;
 }
 
 .navigation-link:active {
-  background-color: #68a2ca;
+  opacity: 30%;
 }
 
 .navigation-link:focus-visible {
@@ -190,12 +188,11 @@ body {
 }
 
 .search:hover {
-  background-color: #82b3d3;
-  border-radius: 4px;
+  opacity: 60%;
 }
 
 .search:active {
-  background-color: #68a2ca;
+  opacity: 30%;
 }
 
 .search:focus-visible {
@@ -215,12 +212,11 @@ body {
 }
 
 .favourites-count:hover {
-  background-color: #82b3d3;
-  border-radius: 4px;
+  opacity: 60%;
 }
 
 .favourites-count:active {
-  background-color: #68a2ca;
+  opacity: 30%;
 }
 
 .favourites-count:focus-visible {
@@ -646,6 +642,7 @@ body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .page-footer-contacts-link {
@@ -789,6 +786,8 @@ body {
   min-height: 20px;
   fill: #ffffff;
   padding: 3px;
+  margin-left: -4px;
+  margin-top: 1px;
 }
 
 .home-item:hover {
@@ -1188,7 +1187,7 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  padding: 14px 20px;
+  padding: 13px 20px;
   width: 292px;
   box-sizing: border-box;
   border: 2px solid rgb(229, 229, 229);

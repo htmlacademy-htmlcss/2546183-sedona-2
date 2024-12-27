@@ -12,7 +12,7 @@
   <body>
     <div class="container">
       <!-- Header -->
-      <header class="main-page-header">
+      <header class="main-page-header" data-test="header">
         <nav class="navigation">
           <a class="header-link" href="index.html">
             <img class="logo" src="images/logo.svg" width="140" height="70" alt="Логотип города Седона">
@@ -47,13 +47,12 @@
           </ul>
         </nav>
       </header>
-      <main class="main-container main-inner">
+      <main class="main-container main-inner" data-test="main">
 
         <!-- Form for choosing hotels -->
-        <section class="catalog-hotels">
+        <section class="catalog-hotels" data-test="filter">
           <h1 class="inner-header-title">Гостиницы Седоны</h1>
           <ul class="breadcrumbs-list">
-
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link" href="index.html">
                 <span class="visually-hidden">Иконка возврата на главную
@@ -67,13 +66,11 @@
                 </svg>
               </a>
             </li>
-
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link arrow-item">
                 <span class="visually-hidden">Иконка стрелки вправо</span>
               </a>
             </li>
-
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link">Гостиницы</a>
             </li>
@@ -134,20 +131,16 @@
                 </li>
               </ul>
             </fieldset>
-
             <fieldset class="hotels-filter-group hotel-price">
               <legend class="hotels-filter-title price"> Стоимость, ₽: </legend>
-
               <div class="hotel-price-range-block">
                 <input class="hotel-price-input start-price" type="number" name="hotel-price-name" value="0">
                 <span class="hotels-filter-span">от</span>
               </div>
-
               <div class="hotel-price-range-block">
                 <input class="hotel-price-input final-price" type="number" name="hotel-price-name" value="9000">
                 <span class="hotels-filter-span">до</span>
               </div>
-
               <div class="slider-range-bar">
                 <button class="slider-range-toggle slider-range-toggle-min" type="button">
                   <span class="visually-hidden">Изменить минимальную цену</span>
@@ -156,9 +149,7 @@
                   <span class="visually-hidden">Изменить максимальную цену</span>
                 </button>
               </div>
-
             </fieldset>
-
             <div class="hotels-filter-submit-block">
               <button class="hotels-filter-submit-button" type="submit">Применить</button>
               <button class="hotels-filter-submit-button reset" type="reset">Сбросить</button>
@@ -167,7 +158,7 @@
         </section>
 
         <!-- Search results -->
-        <section class="search-results">
+        <section class="search-results" data-test="catalog">
           <div class="search-results-container">
             <h2 class="search-results-title">Найдено гостиниц: 38</h2>
             <select class="select-control" name="select-control-name" aria-label="Сортировка">
@@ -175,7 +166,6 @@
               <option class="select-control-option" value="expensive-hotels-first">Сначала дорогие</option>
               <option class="select-control-option" value="popular-hotels-first">Сначала популярные</option>
             </select>
-
             <ul class="select-button-list">
               <li class="select-button-item">
                 <a href="catalog.html?view=tile" class="select-button select-button-current">
@@ -187,7 +177,6 @@
                   <span class="visually-hidden">Вариант отображения: показать карточки</span>
                 </a>
               </li>
-
               <li class="select-button-item">
                 <a href="catalog.html?view=card" class="select-button">
                   <svg class="select-button-table" aria-hidden="true" focusable="false" width="16" height="14"
@@ -197,7 +186,6 @@
                   <span class="visually-hidden">Вариант отображения: показать по одному отелю</span>
                 </a>
               </li>
-
               <li class="select-button-item">
                 <a href="catalog.html?view=list" class="select-button">
                   <svg class="select-button-lists" aria-hidden="true" focusable="false" width="16" height="14"
@@ -209,11 +197,8 @@
                   <span class="visually-hidden">Вариант отображения: показать список</span>
                 </a>
               </li>
-
             </ul>
-
           </div>
-
           <ul class="product-list">
             <li class="product-card">
               <a class="product-card-link" href="#">
@@ -354,7 +339,7 @@
         </section>
 
         <!-- Subscription -->
-        <section class="subscription-catalog">
+        <section class="subscription-catalog" data-test="subscribe">
           <h2 class="subscription-title-catalog">Подпишитесь на рассылку</h2>
           <p class="subscription-description-catalog">Только полезная информация и никакого спама, <br>честное
             бойскаутское!</p>
@@ -368,7 +353,7 @@
       </main>
 
       <!-- Footer -->
-      <footer class="page-footer">
+      <footer class="page-footer" data-test="footer">
         <h2 class="visually-hidden">Контакты</h2>
         <ul class="page-footer-contacts-list">
           <li class="page-footer-contacts-item">

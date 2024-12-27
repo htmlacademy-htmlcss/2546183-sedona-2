@@ -11,7 +11,7 @@
   <body>
     <div class="container">
       <!-- Header -->
-      <header class="main-page-header">
+      <header class="main-page-header" data-test="header">
         <nav class="navigation">
           <a class="header-link" href="index.html" aria-current="page">
             <img class="logo" src="images/logo.svg" width="140" height="70" alt="Логотип города Седона">
@@ -48,34 +48,30 @@
       </header>
 
       <!-- Main -->
-      <main class="main-container main-index-page">
+      <main class="main-container main-index-page" data-test="main">
 
         <!-- Welcome -->
-        <section class="welcome">
+        <section class="welcome" data-test="hero">
           <h1 class="visually-hidden">Гостиницы города Седоны в Америке</h1>
           <img class="welcome-image" src="images/welcome-text.svg" width="457" height="352"
             alt="Welcome to the gorgeous Sedona. Because the Grand Canyon sucks!">
         </section>
 
         <!-- Advantages -->
-        <section class="advantages">
+        <section class="advantages" data-test="advantages">
           <div class="advantages-title-container">
             <h2 class="advantages-title">Седона — небольшой городок в Аризоне, <br>заслуживающий большего!</h2>
             <p class="advantages-title-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
           </div>
           <ul class="advantages-list">
             <li class="advantages-item color1">
-
               <div class="advantages-item-container">
                 <h3 class="advantages-subtitle color1 line1">Настоящий <br>городок</h3>
                 <p class="advantages-description color1">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
               </div>
-
               <img class="city-sedona-image" src="images/city-sedona.jpg" width="800" height="385"
                 alt="двухэтажное кафе в городе">
-
             </li>
-
             <li class="advantages-item color2">
               <h3 class="advantages-subtitle">Небольшая <br>площадь</h3>
               <p class="advantages-description">Все достопримечательности находятся очень близко</p>
@@ -90,7 +86,6 @@
             </li>
             <li class="advantages-item color1">
               <img class="bridge-image" src="images/bridge.jpg" width="800" height="385" alt="страшный природный мост">
-
               <div class="advantages-item-container">
                 <h3 class="advantages-subtitle color1 line1">Там есть <br>мост дьявола</h3>
                 <p class="advantages-description color1">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
@@ -100,7 +95,7 @@
         </section>
 
         <!-- Services -->
-        <section class="services">
+        <section class="services" data-test="service">
           <div class="services-title-container">
             <h2 class="services-title">Приезжайте в Седону отдохнуть <br>в комфорте и уюте!</h2>
             <p class="services-title-description">Опытный персонал и качественное обслуживание!</p>
@@ -122,7 +117,7 @@
         </section>
 
         <!-- Searching hotels -->
-        <section class="searching-hotels">
+        <section class="searching-hotels" data-test="search">
           <h2 class="searching-hotels-title">Заинтересовались?</h2>
           <p class="searching-hotels-description">Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие
             предложения
@@ -131,7 +126,7 @@
         </section>
 
         <!-- Subscription -->
-        <section class="subscription">
+        <section class="subscription" data-test="subscribe">
           <h2 class="subscription-title">Подпишитесь на рассылку</h2>
           <p class="subscription-description">Только полезная информация и никакого спама, <br>честное бойскаутское!</p>
           <form class="subscription-form" action="https://echo.htmlacademy.ru" method="post">
@@ -144,7 +139,7 @@
       </main>
 
       <!-- Footer -->
-      <footer class="page-footer">
+      <footer class="page-footer" data-test="footer">
         <h2 class="visually-hidden">Контакты</h2>
         <ul class="page-footer-contacts-list">
           <li class="page-footer-contacts-item">
@@ -197,7 +192,7 @@
       </footer>
 
       <!-- Модальное окно "Поиск гостиницы в Седоне" -->
-      <div class="modal-container">
+      <!-- <div class="modal-container">
         <div class="modal">
           <button class="modal-close-button" type="button">
             <span class="visually-hidden">Закрыть</span>
@@ -312,7 +307,7 @@
         </div>
       </div>
     </div>
-    <script src="scripts/modal.js"></script>
+    <script src="scripts/modal.js"></script> -->
   </body>
 
 </html>
