@@ -1,7 +1,9 @@
 # Личный проект «Седона»
 
-* Студент: [Юлия Вострикова](https://up.htmlacademy.ru/htmlcss-individual/2/user/2546183).
-* Наставник: `Неизвестно`.
+* Студент: [Юлия Вострикова](https://up.htmlacademy.ru/htmlcss/40/user/2546183).
+* Наставник: [Евгения Подопригора](https://htmlacademy.ru/profile/id2387199).
+
+* Сайт: [Мой проект Седона](https://kosheen67.github.io/2546183-sedona-40/)
 
 ---
 
@@ -18,7 +20,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 #### 2. Создайте копию
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/2546183-sedona-2) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/2546183-sedona-40) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037949-67a635d6-7bae-11e7-9f2f-1a48fde231b9.jpg">
 
