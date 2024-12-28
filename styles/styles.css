@@ -421,7 +421,7 @@ body {
 /*Services*/
 .services-title-container {
   margin: 0;
-  padding: 64px 70px;
+  padding: 63px 70px 66px;
 }
 
 .services-title {
@@ -482,7 +482,7 @@ body {
 
 /*Searching Hotels*/
 .searching-hotels {
-  padding: 98px 70px 95px;
+  padding: 96px 70px;
   margin: 0;
 }
 
@@ -629,7 +629,7 @@ body {
 
 /*Footer*/
 .page-footer {
-  padding: 45px 70px;
+  padding: 42px 70px;
   margin: 0;
   display: flex;
   justify-content: space-between;
