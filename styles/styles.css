@@ -149,7 +149,7 @@ body {
   right: 16px;
   bottom: 0;
   content: "";
-  border-bottom: 2px solid rgb(117, 98, 87);
+  border-bottom: 2px solid #756257;
 }
 
 .navigation-user {
@@ -261,11 +261,11 @@ body {
 
 .navigation-link-favourites:hover,
 .navigation-link-favourites:focus {
-  background: rgb(97, 80, 72);
+  background: #615048;
 }
 
 .navigation-link-favourites:active {
-  background: rgb(117, 97, 87);
+  background: #756157;
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -512,11 +512,11 @@ body {
 
 .searching-hotels-button:hover,
 .searching-hotels-button:focus {
-  background: rgb(97, 80, 72);
+  background: #615048;
 }
 
 .searching-hotels-button:active {
-  background: rgb(117, 97, 87);
+  background: #756157;
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -561,7 +561,7 @@ body {
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
   border-radius: 4px 0 0 4px;
-  background: rgb(242, 242, 242);
+  background: #f2f2f2;
   width: 452px;
   height: 100%;
   padding: 2px 0 2px 20px;
@@ -659,7 +659,7 @@ body {
 
 .contacts-icon:hover,
 .contacts-icon:focus {
-  fill: rgb(104, 162, 202);
+  fill: #68a2ca;
 }
 
 .contacts-icon:active {
@@ -688,7 +688,7 @@ body {
 
 .page-footer-contacts-phone:hover,
 .page-footer-contacts-phone:focus {
-  color: rgb(117, 97, 87)
+  color: #756157
 }
 
 .page-footer-contacts-phone:active {
@@ -716,7 +716,7 @@ body {
 
 .site-developer:hover,
 .site-developer:focus {
-  fill: rgb(117, 97, 87)
+  fill: #756157
 }
 
 .site-developer:active {
@@ -738,7 +738,7 @@ body {
 .catalog-hotels {
   text-align: left;
   color: #ffffff;
-  background: rgb(117, 97, 87) url("../images/filter-background.jpg") no-repeat center center;
+  background: #756157 url("../images/filter-background.jpg") no-repeat center center;
   background-size: cover;
   padding: 35px 70px 68px;
 }
@@ -959,8 +959,8 @@ body {
   font-family: inherit;
   width: 143px;
   padding: 12px 20px;
-  background: rgb(242, 242, 242);
-  border: 0 solid rgb(242, 242, 242);
+  background: #f2f2f2;
+  border: 0 solid #f2f2f2;
   outline: none;
   appearance: textfield;
 }
@@ -1098,11 +1098,11 @@ body {
 
 .hotels-filter-submit-button:hover,
 .hotels-filter-submit-button:focus {
-  background: rgb(104, 162, 202);
+  background: #68a2ca;
 }
 
 .hotels-filter-submit-button:active {
-  background: rgb(130, 179, 211);
+  background: #82b3d3;
   color: rgba(255, 255, 255, 0.3)
 }
 
@@ -1146,7 +1146,7 @@ body {
 
 .reset:focus-visible {
   box-sizing: border-box;
-  outline: 3px solid rgb(131, 179, 211);
+  outline: 3px solid #83b3d3;
   outline-offset: -3px;
   background: transparent;
   color: #ffffff;
@@ -1190,7 +1190,7 @@ body {
   padding: 13px 20px;
   width: 292px;
   box-sizing: border-box;
-  border: 2px solid rgb(229, 229, 229);
+  border: 2px solid #e5e5e5;
   border-radius: 4px;
   margin-left: 161px;
   height: 49px;
@@ -1248,21 +1248,21 @@ body {
 }
 
 .select-button-current {
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid #000000;
 
 }
 
 .select-button:hover {
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid #000000;
 }
 
 .select-button:active {
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid #000000;
   outline: none;
 }
 
 .select-button:focus-visible {
-  border: 2px solid rgb(104, 162, 202);
+  border: 2px solid #68a2ca;
   outline: none;
 }
 
@@ -1381,11 +1381,11 @@ body {
 
 .product-card-details:hover,
 .product-card-details:focus {
-  background: rgb(97, 80, 72);
+  background: #615048;
 }
 
 .product-card-details:active {
-  background: rgb(117, 97, 87);
+  background: #756157;
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -1401,11 +1401,11 @@ body {
 
 .product-card-favourites:hover,
 .product-card-favourites:focus {
-  background: rgb(104, 162, 202);
+  background: #68a3ca;
 }
 
 .product-card-favourites:active {
-  background: rgb(130, 179, 211);
+  background: #82b3d3;
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -1421,11 +1421,11 @@ body {
 
 .button:hover,
 .button:focus {
-  background: rgb(108, 158, 66);
+  background: #6c9e42;
 }
 
 .button:active {
-  background: rgb(125, 181, 79);
+  background: #7db54f;
   color: rgba(255, 255, 255, 0.3)
 }
 
@@ -1433,7 +1433,7 @@ body {
   color: #333333;
   font-weight: inherit;
   border-radius: 4px;
-  background: rgb(242, 242, 242);
+  background: #f2f2f2;
   padding: 9px 22px 8px 23px;
   cursor: default;
 }
@@ -1471,11 +1471,11 @@ body {
 
 .pagination-link:hover,
 .pagination-link:focus {
-  background: rgb(104, 162, 202);
+  background: #68a2ca;
 }
 
 .pagination-link:active {
-  background: rgb(130, 179, 211);
+  background: #82b3d3;
   color: rgba(255, 255, 255, 0.3);
 }
 
